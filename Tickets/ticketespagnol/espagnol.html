@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../ticketvalencia/ticketpage.css">
+    <link rel="icon" type="image/x-icon" href="../../homepage/Real-Madrid-icon.png">
+
+    <title>Checkout page</title>
+</head>
+<body>
+    <div class="tick">
+
+        <div class="scarsity">
+            <h2>Only <span id="number">10</span> Tickets left</h2>
+            <h2><span id="viewer-count">30</span> People are in this page</h2>
+        </div>
+        <div class="check_pay">
+            
+            <h1>Checkout Page</h1>
+            <form action="../thankyou.html">
+                <label for="fname">First Name</label><br>
+                <input type="text" name="first name" id="fname" required><br>
+                <label for="lname">Last name</label><br>
+                <input type="text" name="Last name" id="lname" required><br>
+                <label for="email">Email Address</label><br>
+                <input type="email" name="email" id="email" required><br>
+                <label for="country">Select your country:</label><br>
+                <select id="country" name="country" required>
+                </select><br>
+                <div class="help">
+                <p>Please choose the Category of the seats:</p>
+                <input type="radio" name="category" id="category1" value="Category 1" onchange="updatePrice()" required>
+                <label for="category1">Category 1</label><br>
+                <input type="radio" name="category" id="category2" value="Category 2" onchange="updatePrice()" required>
+                <label for="category2">Category 2</label><br>
+                <input type="radio" name="category" id="category3" value="Category 3" onchange="updatePrice()" required>
+                <label for="category3">Category 3</label><br>
+                <input type="radio" name="category" id="category4" value="Category 4" onchange="updatePrice()" required>
+                <label for="category4">Category 4</label><br>
+                <br></div>
+                <div class="price">
+                <label for="price">Final Price:</label>
+                <input type="text" id="price" name="price" value="" readonly><br></div>
+              
+        
+
+        <div class="payment">
+            <h1>Payment Methods</h1>
+            
+                <p>Select a payment method:</p>
+                <input type="radio" name="payment" id="payment_card" value="card">
+                <label for="payment_card"><img src="../../Mastercard.PNG" alt="Card" width="50px" height="30px">Credit or debit card</label><br>
+                <input type="radio" name="payment" id="payment_paypal" value="paypal">
+                <label for="payment_paypal"><img src="../../paypal.png" alt="PayPal" width="50px" height="30px">PayPal</label><br>
+                <input type="radio" name="payment" id="Bitcoin" value="Bitcoin">
+                <label for="Bitcoin"><img src="../../Bitcoin.svg.png" alt="Bitcoin" width="50px" height="30px">Bitcoin</label><br>
+                <input type="radio" name="payment" id="payment_google_pay" value="google_pay">
+                <label for="payment_google_pay"><img src="../../google-pay-logo-2020.svg" alt="Google Pay" width="50px" height="30px">Google Pay</label><br>
+                <input type="submit" value="Purchase">
+              </form>
+              
+              
+              
+        </div></div>
+        
+        <div class="pictures">
+                <img src="../../homepage/Real-Madrid-icon.png" alt="">
+                <img class="liga" src="../../LigaSantander.png" alt="">
+                <img src="../../espanyol_mediano.png" alt="">
+    
+        </div></div>
+        <script src="hello.js"></script>
+</body>
+</html>
