@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" type="image/x-icon" href="../homepage/Real-Madrid-icon.png">                     
+    <title>Contact us</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+  $('nav a').filter(function () {
+    return this.href === location.href;
+  }).addClass('active');
+});
+    </script>
+</head>
+<body>
+    <h1><div class="container">
+        <a href="../index.html"><img class="real" src="../homepage/Real_madrid_logo_PNG1.png" alt=""></a>
+        <nav>
+            
+            <a href="../index.html">Home</a>
+            <a href="../Legends/legend.html">Legends</a>
+            <a href="../Trophies/trophy.html"a>Trophies</a>
+            <a href="../Tickets/ticket/ticket.html">Tickets</a>
+            <a href="contact.html">Contact</a>
+            <div class="animation start-home"></div>
+        </nav></div></h1>
+        <div class="hero">
+            <h1 class="contact">Contact us</h1>
+            <p>We are here to assist you in any way possible</p>
+        </div>
+        <div class="contact">
+            <h1>Send us a Message</h1>
+            <div class="contact_us">
+                <form action="../homepage/index.html">
+                    <div class="name_email">
+                    <div class="name"><label for="name">Enter you Name</label><br>
+                    <input id="name" type="text" name="name" placeholder="Full Name" required><br></div>
+                    <div class="email"><label class="labell" for="email">Enter your Email</label><br>
+                    <input id="email" type="email" name="email" placeholder="Email" required></div></div>
+                    <br>
+                    <label for="text">What is your message</label><br>
+                    <textarea rows = "12" cols = "70" name = "description">Enter your message here...</textarea><br>
+                    <input  class="soumettre" type = "submit" value = "submit" />
+                </form>
+            </div>
+        </div>
+    
+        <div class="copyright">
+            <p>Copyright 2022</p>
+        </div>
+
+</body>
+</html>
