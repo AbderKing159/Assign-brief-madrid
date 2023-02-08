@@ -1,0 +1,29 @@
+
+body {
+    background-color: #f3f3f3;
+}
+.container {
+    width: 1000px;
+    height: 730px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 35px;
+    text-align: center;
+    color: #4d4d4d;
+}
+p {
+    font-size: 20px;
+    text-align: center;
+    color: #4d4d4d;
+}
+img{
+    width: 900px;
+    margin-left: 50px;
+    height: 500px;
+}
+div {
+    background-color: #f7f7f7;
+    border: 1px solid #e2e2e2;
+    margin-top: 20px;
+}

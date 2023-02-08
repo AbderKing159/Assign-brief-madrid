@@ -1,0 +1,440 @@
+@media only screen and (max-width: 600px) {
+	.container{
+		display: block !important;
+	}
+	nav {
+		width: 100% !important;
+		overflow: scroll;
+	}
+	.real{
+		margin-left: 150px !important;
+	}
+	.footer {
+	  display: flex;
+	  flex-wrap: wrap;
+	  justify-content: space-between;
+	}
+	.time{
+		padding-top: 20px !important;
+	}
+	.heado h1{
+		margin-top: 0 !important ;
+	}
+	.price{
+		margin-left: -20px !important;
+	}
+	.pictures img{
+		height: 50px !important;
+		width: 50px !important;
+	}
+	.nextM{
+		font-size: 50px !important;
+	}
+	.bro{
+		margin-left: -5px !important;
+	}
+	.matchday{
+		display: none !important;
+	}
+	.ticket{
+		left: 23% !important;
+	}
+	button{
+		margin-left: 50px !important;
+	}
+
+  
+	.footer img {
+	  max-width: 50%;
+	  object-fit: cover;
+	}
+	.next button{
+		width: 170px !important;
+		margin-left: -24px !important;
+	}
+	.next{
+		display: block !important;
+		width: 50% !important;
+		height: 70% !important;
+		margin-top: -80px !important;
+	}
+	
+	.tsawr{
+		width: 50px !important;
+		height: 50px !important;
+		margin-left: -40px !important;
+	}
+	.football{
+		margin-left: 0 !important;
+		margin-top: 30px !important;
+		width: 350px !important;
+	}
+	.ticket-number{
+		font-size: 12px !important;
+		padding-right: 10px !important;
+	}
+	.ticket p{
+		margin-left: 20px;
+	}
+	.club{
+		margin-left: 45px !important;
+	}
+	.ticket button{
+		margin-right: 150px !important;
+	}
+	.ticket a button{
+		margin-left: -100px !important;
+		margin-bottom: -15px;
+		padding: 3px 0 3px;
+	}
+  
+	.footer p,
+	.footer h3 {
+	  font-size: 1em;
+	}
+}
+
+.match_tickets{
+	background-color: #f2f2f2;
+	padding-top: 50px;
+}
+nav {
+	margin: 27px auto 0;
+
+	position: relative;
+	width: 590px;
+	height: 50px;
+	background-color: #34495e;
+	border-radius: 8px;
+	font-size: 0;
+}
+nav .active {
+	color: white;
+	background-color: #9b59b6;
+	border-radius: 8px;
+  }
+nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+}
+nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
+a:nth-child(1) {
+	width: 100px;
+}
+a:nth-child(2) {
+	width: 110px;
+}
+a:nth-child(3) {
+	width: 100px;
+}
+a:nth-child(4) {
+	width: 160px;
+}
+a:nth-child(5) {
+	width: 120px;
+}
+nav .start-home, a:nth-child(1):hover~.animation {
+	width: 100px;
+	left: 0;
+}
+nav .start-about, a:nth-child(2):hover~.animation {
+	width: 110px;
+	left: 100px;
+	background-color: #e74c3c;
+}
+nav .start-blog, a:nth-child(3):hover~.animation {
+	width: 100px;
+	left: 210px;
+	background-color: #3498db;
+}
+nav .start-portefolio, a:nth-child(4):hover~.animation {
+	width: 160px;
+	left: 310px;
+	background-color: #9b59b6;
+}
+nav .start-contact, a:nth-child(5):hover~.animation {
+	width: 120px;
+	left: 470px;
+	background-color: #5a49bb;
+}
+nav .selected{
+	background-color: #3498db;
+	color: white;
+}
+
+.real{
+    margin:5px 0 0 70px;
+    height: 80px;
+    width: 80px
+}
+.hero{
+	position: relative;
+	margin-top: 20px;
+	width: 100%;
+	height: 650px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../PLANO-GENERAL-RM-MAN-CITY_PCA0965Thumb\,12.jpg');
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 1%;
+}
+
+.heado{
+	text-align: center;
+	color: white;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	font-size: 35px;
+	padding-top:50px;
+
+}
+.container{
+	display: flex;
+}
+
+body {
+    margin: 0;
+	font-size: 12px;
+	
+}
+.next{
+	display: flex;
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	background-color: white;
+	border-radius: 10px;
+	left: 25%;
+	top: 35%;
+	
+}
+.pictures{
+	display: flex;
+	padding: 12% 0 0 10%;
+}
+.pictures img{
+	width: 120px;
+	height: 120px;
+}
+.liga{
+	width: 50px !important;
+	height: 50px !important;
+	padding-top: 6%;
+}
+.time{
+	padding-top: 40px;
+	display: flex;
+	font-size: 14px;
+	color: #1abc9c;
+	font-weight: bolder;
+	font-style: italic;
+}
+.match{
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+	margin-bottom: 7px;
+}
+.day{
+	font-size: 12.96px;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	font-weight: lighter;
+	font-style: italic;
+	margin: 0;
+}
+.stad{
+	font-size: 12.96px;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	font-weight: lighter;
+	font-style: italic;
+	margin: 0;
+	padding: 0 0 40px 0;
+}
+.seats{
+	height: 20px;
+	border-left:0.75px solid rgb(40, 40, 40) ;
+	padding-left: 10px;
+}
+.date{
+	margin-right: 10px;
+}
+.details button{
+	padding: 10px;
+	background-color: #1abc9c;
+	color: white;
+	text-align: center;
+	border: 0.5px solid black;
+	font-size: 15px;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-left: 40px;
+}
+
+.details{
+	margin-left: 40px;
+}
+.price{
+	font-size: 15px;
+	text-align: center;
+}
+p span{
+	font-weight: bold;
+	font-size: 18px;
+	padding-left: 3px;
+}
+
+.football{
+	margin-bottom: 20px ;
+	padding: 20px;
+	position: relative;
+	width: 80%;
+	border-radius: 10px;
+	height: 125px;
+	margin-left: 10%;
+	background-color: white;
+	display: flex;
+}
+.tsawr{
+	display: flex;
+	padding: 0 20px 0 70px;
+}
+.tsawr img{
+	width: 60px;
+	height: 60px;
+}
+.tani{
+	display: flex;
+}
+.liga img{
+	width: 25px;
+	height: 25px
+}
+.ticket{
+	position: absolute;
+	bottom: 10px;
+	left: 40%;
+}
+.ticket button{
+	border-radius: 10px;
+	width: 250px;
+	padding: 13px 0 13px 0 ;
+	color: white;
+	background-color: #1abc9c;
+	border: 0;
+	font-size: 17px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.ticket p{
+	font-size: 15px ;
+	text-align: center;
+}
+
+.matchday{
+	padding: 10px 0 0 40%;
+	font-size: 13.5px;
+}
+.club{
+	font-size: 16px;
+
+}
+.club p {
+	padding-top: 7px;
+	margin: 0;
+}
+.date{
+	color: #1abc9c;
+}
+.ticket-number{
+	color: black;
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 16px;
+	padding-right: 30px ;
+}
+.footer{
+	margin-top: 60px;
+    display: flex;
+    padding-top: 30px;
+    background-color: #666666;
+    color: white;
+    padding-bottom: 20px;
+  }
+  .email{
+    display: flex;
+  }
+  .phone{
+    display: flex;
+  }
+  .email img{
+    width: 30px;
+    background-color: #666666;
+    height: 25px;
+  }
+  .phone img{
+    width: 30px;
+    background-color: #666666;
+    height: 25px;
+  }
+  .info p{
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  .logo2{
+    width: 80px;
+    height: 75px;
+    margin-right: 10%;
+  }
+  .address{
+    margin: 0 10%;
+  }
+  .footer h2{
+    font-size: 20px;
+    text-align: center;
+  }
+  input{
+    border: 2px solid black;
+    padding: 10px;
+    margin-left: 15px;
+  }
+  textarea{
+    border: 2px solid black;
+    margin: 10px 15px 10px;
+  }
+    .soumettre{
+    padding: 12px 20px 12px 20px;
+    background-color: black ;
+    color: white;
+    font-size: 17px;
+    border-radius: 5%;
+    margin-top: 6% ;
+    cursor: pointer;
+  }
+  .copyright{
+    text-align: center;
+    background-color: black;
+    padding: 10px 0 10px;
+    color: white;
+  }
+  .real{
+	width: 80px;
+	height: 80px;
+	margin:5px 0 0 70px;
+  }

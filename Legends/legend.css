@@ -1,0 +1,258 @@
+
+@media only screen and (max-width: 600px) {
+	
+	  .footer {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	  }
+	  
+	  p{
+		padding: 10px !important;
+	  }
+	  .footer img {
+		max-width: 50%;
+		object-fit: cover;
+	  }
+	
+	  .footer p,
+	  .footer h3 {
+		font-size: 1em;
+	  }.text h2{
+		width: 100% !important;
+		font-size: 20px !important;
+		margin: 0 !important;
+	  }
+	  .trophy{
+	  width: 99% !important;
+	  margin: 0 !important;}
+	  .text{
+		width: 100% !important;
+		margin-left: 0 !important;
+	}
+	nav{
+		width: 100% !important;
+		overflow:scroll;
+		
+	  }
+	nav a {
+		margin-right: 20px !important;
+		font-size: 10px !important;
+	}
+	.container{
+		display: block !important;
+	}
+	h2{
+		text-align: center !important;
+		font-size: 25px !important;
+	}
+	img{
+		margin-top: 15px !important;
+	}
+	.real{
+		margin-left: 150px !important;
+	}
+
+}
+	
+	
+	
+nav {
+	margin: 27px auto 0;
+
+	position: relative;
+	width: 590px;
+	height: 50px;
+	background-color: #34495e;
+	border-radius: 8px;
+	font-size: 0;
+}
+nav .active {
+	color: white;
+	background-color: #e74c3c;
+	border-radius: 8px;
+  }
+nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+}
+.container{
+	display: flex;
+}
+nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
+a:nth-child(1) {
+	width: 100px;
+}
+a:nth-child(2) {
+	width: 110px;
+}
+a:nth-child(3) {
+	width: 100px;
+}
+a:nth-child(4) {
+	width: 160px;
+}
+a:nth-child(5) {
+	width: 120px;
+}
+nav .start-home, a:nth-child(1):hover~.animation {
+	width: 100px;
+	left: 0;
+}
+nav .start-about, a:nth-child(2):hover~.animation {
+	width: 110px;
+	left: 100px;
+	background-color: #e74c3c;
+}
+nav .start-blog, a:nth-child(3):hover~.animation {
+	width: 100px;
+	left: 210px;
+	background-color: #3498db;
+}
+nav .start-portefolio, a:nth-child(4):hover~.animation {
+	width: 160px;
+	left: 310px;
+	background-color: #9b59b6;
+}
+nav .start-contact, a:nth-child(5):hover~.animation {
+	width: 120px;
+	left: 470px;
+	background-color: #5a49bb;
+}
+.real{
+    margin:5px 0 0 70px;
+    height: 80px;
+    width: 80px
+}
+
+
+body {
+    margin: 0;
+	font-size: 12px;
+	font-family: sans-serif;
+}
+.title{
+	font-size: 45px;
+	text-align: center;
+	padding-top: 3%;
+}
+.trophy{
+	width: 70%;
+	margin-left: 15%;
+	height: 60%;
+	border: 1px solid black;
+	border-radius: 1%;
+}
+.author{
+	display: flex;
+}
+.begin{
+	padding-top: 20px;
+	font-size: 25px;
+	text-align: center;
+}
+.text{
+	width: 50%;
+	margin-left: 25%;
+}
+.text p{
+	font-size: 17px;
+	line-height: 26px;
+}
+.text span{
+	font-size: 18px;
+	color: #34495e;
+	font-weight: bold;
+}
+.footer{
+	margin-top: 30px;
+    display: flex;
+    padding-top: 30px;
+    background-color: #666666;
+    color: white;
+    padding-bottom: 20px;
+  }
+  .email{
+    display: flex;
+  }
+  .phone{
+    display: flex;
+  }
+  .email img{
+    width: 30px;
+    background-color: #666666;
+    height: 25px;
+  }
+  .phone img{
+    width: 30px;
+    background-color: #666666;
+    height: 25px;
+  }
+  .info p{
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  .logo2{
+    width: 80px;
+    height: 75px;
+    margin-right: 10%;
+  }
+  .address{
+    margin: 0 10%;
+  }
+  .footer h2{
+    font-size: 20px;
+    text-align: center;
+  }
+  input{
+    border: 2px solid black;
+    padding: 10px;
+    margin-left: 15px;
+  }
+  textarea{
+    border: 2px solid black;
+    margin: 10px 15px 10px;
+  }
+    .soumettre{
+    padding: 12px 20px 12px 20px;
+    background-color: black ;
+    color: white;
+    font-size: 17px;
+    border-radius: 5%;
+    margin-top: 6% ;
+    cursor: pointer;
+  }
+  .copyright{
+    text-align: center;
+    background-color: black;
+    padding: 10px 0 10px;
+    color: white;
+  }
+  .legends img{
+	width: 100%;
+	height: 350px;
+  }
+  .text p{
+	margin-bottom: 50px;
+  }
+  .text h2{
+	font-size: 25px;
+	color: #34495e;
+  }
+  
